@@ -1,0 +1,104 @@
+///
+/// Future Imperfect by HTML5 UP
+/// html5up.net | @ajlkn
+/// Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+///
+
+/* Intro */
+
+	#intro {
+		width: 60%;
+		height: 100%;
+		margin-bottom: 1.5em;
+		//position: relative;
+		//border: 3px solid blue;
+		
+
+		.logo {
+			margin: 0;
+			border-bottom: 0;
+			overflow: hidden;
+			//border: 3px solid green;
+			width: 90%;
+			position: relative;
+			display: flex;
+			flex-direction: row;
+			justify-content: center;
+
+			//position: absolute;
+  			top: 50%;
+  			left: 50%;
+  			-ms-transform: translate(-50%, -50%);
+  			transform: translate(-50%, -50%);
+
+			img {
+				//display: block;
+  				width: 68%;
+				border-radius: 20%;
+				min-width: 150px;
+				
+			}
+		}
+
+		header {
+			h2 {
+				font-size: 1.8em;
+				font-weight: _font(weight-heading-extrabold);
+				color: rgb(255, 255, 255);
+			}
+
+			p {
+				font-size: 0.8em;
+				color: rgb(255, 255, 255);
+			}
+		}
+
+		@include breakpoint(large) {
+			//margin: 0 0 _size(section-spacing) 0;
+			//text-align: center;
+
+			header {
+				h2 {
+					//font-size: 2em;
+				}
+
+				p {
+					//font-size: 1.0em;
+				}
+			}
+		}
+
+		@include breakpoint(small) {
+			//margin: 0 0 _size(section-spacing-small) 0;
+			//padding: 1.25em 0;
+
+			> :last-child {
+				//margin-bottom: 0;
+			}
+
+			.logo {
+				//margin: 0 0 (_size(element-margin) * 0.25) 0;
+			}
+
+			header {
+				h2 {
+					//font-size: 1.25em;
+				}
+
+				> :last-child {
+					//margin-bottom: 0;
+				}
+			}
+		}
+	}
+
+	@media (max-width: 800px) {
+		#intro{
+			width: 100%;
+			.logo{
+				img {
+					width: 60%;
+				}
+			}
+		}
+	}

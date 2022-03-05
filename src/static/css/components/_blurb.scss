@@ -1,0 +1,37 @@
+///
+/// Future Imperfect by HTML5 UP
+/// html5up.net | @ajlkn
+/// Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+///
+
+/* Blurb */
+
+	.blurb {
+		margin: auto;
+		justify-content: center;
+		align-items: center;
+		padding-right: 2em;
+
+		h2 {
+			font-size: max(1em, 1.8em);
+			font-weight: _font(weight-heading-extrabold);
+			color: rgb(255, 255, 255);
+		}
+
+		h3 {
+			font-size: 0.7em;
+			color: white;
+		}
+
+		p {
+			font-size: calc(10px + 1.2vw);
+			color: white;
+			margin: 0 0 1.5em 0;
+		}
+
+		h4 {
+			font-size: calc(6px + 0.6vw);
+			font-weight: _font(weight-heading-bold);
+			color: rgb(255, 255, 255);
+		}
+	}

@@ -1,0 +1,21 @@
+        #bottombar {
+            p {
+                color: white;
+                text-align: center;
+                height: 15px;
+                padding-top: 12px;
+                padding-right: 1.8em;
+                padding-left: 1.8em;
+                font-size: calc(8px + .5vw);
+            }
+            div {
+            width: auto;
+            height: auto;
+            //border: 3px solid green;
+            }
+            margin: auto;
+            width: 100%;
+            //border: 3px solid green;
+            height: 70px;
+
+        }

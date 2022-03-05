@@ -1,0 +1,40 @@
+///
+/// Future Imperfect by HTML5 UP
+/// html5up.net | @ajlkn
+/// Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+///
+
+/* Sidebar */
+
+	#sidebar {
+		min-width: 22em;
+		display: flex;
+		flex-direction: row;    
+		margin: auto;
+		//margin-top: 2em;
+  		width: 100%;
+		top: 20%;		  
+		align-items: center;
+
+		/*> :first-child {
+			border-top: 0;
+			margin-top: 10px;
+			padding-top: 0;
+		}*/
+		
+
+		@include breakpoint(large) {
+			//border-top: solid 1px _palette(border);
+			//margin: _size(section-spacing) 0 0 0;
+			//min-width: 0;
+			//padding: _size(section-spacing) 0 0 0;
+			width: 100%;
+			//top: 20%;		  
+		}
+	}
+
+	@media (max-width: 800px) {
+		#sidebar {
+		  flex-direction: column;
+		}
+	  }
