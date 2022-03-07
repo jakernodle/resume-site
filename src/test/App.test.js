@@ -9,7 +9,6 @@ import React from 'react';
 import { BrowserRouter } from 'react-router-dom';
 
 import Contact from '../pages/Contact';
-import Index from '../pages/Index';
 import NotFound from '../pages/NotFound';
 import Resume from '../pages/Resume';
 
