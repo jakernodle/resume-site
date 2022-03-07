@@ -1,0 +1,2 @@
+(this["webpackJsonppersonal-site"]=this["webpackJsonppersonal-site"]||[]).push([[11],{175:function(e,s,n){"use strict";n.r(s);n(0);var t=n(26),a=n(1);s.default=function(){return Object(a.jsx)(t.a,{description:"JohnAnge Kernodle's personal website. DC based NC State graduate, and Andrews Accelerator Alumni."})}}}]);
+//# sourceMappingURL=11.6a4daf2d.chunk.js.map
