@@ -33,6 +33,9 @@ build/Release
 # https://www.npmjs.org/doc/misc/npm-faq.html#should-i-check-my-node_modules-folder-into-git-
 node_modules
 
+#file for the mac os folder design stuff
+.DS_Store
+
 # Users Environment Variables
 .lock-wscript
 
