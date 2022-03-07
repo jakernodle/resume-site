@@ -125,7 +125,7 @@
 		@include breakpoint(medium) {
 			border-left: 0;
 			border-right: 0;
-			left: _size(section-spacing) * -1;
+			left: 0em;
 			width: calc(100% + (#{_size(section-spacing)} * 2));
 
 			> header {
@@ -186,7 +186,7 @@
 
 		@include breakpoint(small) {
 			@include padding(_size(section-spacing-small), _size(section-spacing-small));
-			left: _size(section-spacing-small) * -1;
+			left: 0em;
 			margin: 0 0 _size(element-margin) 0;
 			width: calc(100% + (#{_size(section-spacing-small)} * 2));
 

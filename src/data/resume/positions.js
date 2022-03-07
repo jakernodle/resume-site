@@ -24,8 +24,7 @@ const positions = [
     link: 'http://enveritas.org',
     daterange: 'May 2021 - Present',
     points: [
-      'Developed end to end application for rewarding thew use of North Carolina parks and rec trails using Node.JS, Express, Swift, MongoDB, AWS, S3, Cloudinary, and other technologies.',
-      'Collected data sets on the ground. Compiled that data into GPX files to be visualized in app',
+      'Developing an end to end application for rewarding the use of North Carolina parks and recreation trails using Node.JS, Express, Swift, MongoDB, AWS, S3, Cloudinary, and other technologies.',
       'Oversaw UI and UX to ensure the final product followed the IOS design principles and was technically viable.',
     ],
   },

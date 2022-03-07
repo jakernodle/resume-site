@@ -21,7 +21,7 @@ const SideBar = () => (
       <p>I like building things that connect people.
         I&apos;m a <a href="https://ece.ncsu.edu/">NC State ECE</a> graduate and <a href="https://entrepreneurship.ncsu.edu/andrews-launch-accelerator/"> Andrews Accelerator</a> Alumni.
       </p>
-      <h4>Like this website? It&apos;s a statically generated React app written with modern JavaScript. Feel free to use my code <a href="https://ece.ncsu.edu/">here</a>.
+      <h4>Like this website? It&apos;s a statically generated React app written with modern JavaScript. Feel free to use my code <u><a href="https://ece.ncsu.edu/">here</a></u>.
       </h4>
     </section>
   </section>

@@ -10,7 +10,7 @@ const skills = [
   {
     title: 'Objective-C',
     competency: 5,
-    category: ['App Development', 'Languages', 'Objective-C'],
+    category: ['App Development', 'Languages'],
   },
   {
     title: 'Javascript',
