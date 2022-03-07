@@ -16,7 +16,7 @@ import Resume from '../pages/Resume';
 const pages = [
   {
     route: '/',
-    heading: '',
+    heading: 'Hi',
     component: Index,
   },
   {
