@@ -17,13 +17,8 @@ import Resume from '../pages/Resume';
 const pages = [
   {
     route: '/',
-    heading: 'About this site',
+    heading: '',
     component: Index,
-  },
-  {
-    route: '/about',
-    heading: 'About Me',
-    component: About,
   },
   {
     route: '/contact',
@@ -55,8 +50,8 @@ const checkPageComponent = async (page) => {
   test(`Renders ${page.route} Component`, () => {
     window.scrollTo = () => {}; // TODO mock this later
     renderWithRouter(<page.component />, { route: page.route });
-    //const linkElement = screen.queryByTestId('heading');
-    //expect(linkElement).toHaveTextContent(page.heading);
+    const linkElement = screen.queryByTestId('heading');
+    expect(linkElement).toHaveTextContent(page.heading);
   });
 };
 
