@@ -28,16 +28,6 @@ const pages = [
     component: About,
   },
   {
-    route: '/projects',
-    heading: 'Projects',
-    component: Projects,
-  },
-  {
-    route: '/stats',
-    heading: 'Stats',
-    component: Stats,
-  },
-  {
     route: '/contact',
     heading: 'Contact',
     component: Contact,
@@ -67,7 +57,7 @@ const checkPageComponent = async (page) => {
   test(`Renders ${page.route} Component`, () => {
     window.scrollTo = () => {}; // TODO mock this later
     renderWithRouter(<page.component />, { route: page.route });
-    const linkElement = screen.getByTestId('heading');
+    const linkElement = screen.queryByTestId('heading');
     expect(linkElement).toHaveTextContent(page.heading);
   });
 };
