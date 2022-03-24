@@ -53,6 +53,11 @@ const skills = [
     category: ['Web Development', 'Databases'],
   },
   {
+    title: 'Pug',
+    competency: 3,
+    category: ['Web Development', 'Databases'],
+  },
+  {
     title: 'Express.JS',
     competency: 2,
     category: ['Web Development', 'Javascript'],
