@@ -12,6 +12,7 @@
 		border: solid 1px _palette(border);
 		margin: 0 0 _size(section-spacing) 0;
 		position: relative;
+		border-radius: 1em;
 
 		> header {
 			@include vendor('display', 'flex');

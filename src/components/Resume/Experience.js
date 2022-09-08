@@ -22,6 +22,7 @@ Experience.propTypes = {
   data: PropTypes.arrayOf(PropTypes.shape({
     company: PropTypes.string,
     position: PropTypes.string,
+    skills: PropTypes.string,
     link: PropTypes.string,
     daterange: PropTypes.string,
     points: PropTypes.arrayOf(PropTypes.string),
