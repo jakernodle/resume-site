@@ -11,8 +11,8 @@ Tested with: [node](https://nodejs.org/) >= v12 and optional [nvm](https://githu
 To download the repository and install dependencies, run the following commands:
 
 ```bash
-git clone git://github.com/mldangelo/personal-site.git # replace [mldangelo] with your github username if you fork first.
-cd personal-site
+git clone git://github.com/jakernodle/resume-site.git 
+cd resume-site
 nvm install # this is optional - make sure you're running >= node 12 with `node --version`
 npm install
 ```
